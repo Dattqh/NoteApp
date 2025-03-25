@@ -78,7 +78,9 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="12dp"
-            android:text="SAVE NOTE" />
+            android:text="SAVE NOTE"
+            android:backgroundTint="@color/orange"
+            android:textColor="@android:color/white"/>
 
     </LinearLayout>
 
