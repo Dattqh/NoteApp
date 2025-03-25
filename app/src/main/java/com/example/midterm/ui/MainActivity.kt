@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
                 note.id?.let { id ->
                     noteRepository.deleteNote(
                         noteId = id,
-                        onSuccess = { Toast.makeText(this, "Note deleted successfully", Toast.LENGTH_SHORT).show() },
-                        onFailure = { exception -> Toast.makeText(this, "Failed to delete note: ${exception.message}", Toast.LENGTH_SHORT).show() }
+                        onSuccess = { Toast.makeText(this, "Xoa ghi chu thanh cong", Toast.LENGTH_SHORT).show() },
+                        onFailure = { exception -> Toast.makeText(this, "Loi xoa ghi chu: ${exception.message}", Toast.LENGTH_SHORT).show() }
                     )
                 }
             }

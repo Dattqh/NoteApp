@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="ADD USER"
+                android:text="Them Ghi Chu"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/backButton"
@@ -49,7 +49,7 @@
             android:padding="12dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/bg_content"
-            android:hint="Enter Title"
+            android:hint="Nhap tieu de"
             android:inputType="text"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"/>
@@ -63,7 +63,7 @@
             android:padding="12dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/bg_content"
-            android:hint="Enter Description"
+            android:hint="Nhap mo ta"
             android:inputType="textMultiLine"
             android:gravity="top|start"
             android:layout_marginStart="12dp"
@@ -78,7 +78,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="12dp"
-            android:text="SAVE NOTE"
+            android:text="Luu"
             android:backgroundTint="@color/orange"
             android:textColor="@android:color/white"/>
 

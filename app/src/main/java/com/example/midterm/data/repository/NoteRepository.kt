@@ -21,7 +21,7 @@ class NoteRepository {
                 .addOnSuccessListener { onSuccess() }
                 .addOnFailureListener { onFailure(it) }
         } ?: run {
-            onFailure(Exception("Note cannot be updated: ID is missing"))
+            onFailure(Exception("Khong the cap nhat ghi chu: Thieu ID"))
         }
     }
 

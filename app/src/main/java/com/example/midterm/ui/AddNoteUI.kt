@@ -26,15 +26,15 @@ class AddNoteUI : AppCompatActivity() {
                 noteRepository.addNote(
                     note,
                     onSuccess = {
-                        Toast.makeText(this, "Note added", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Ghi chu da duoc them", Toast.LENGTH_SHORT).show()
                         finish()
                     },
                     onFailure = {
-                        Toast.makeText(this, "Error: ${it.message}", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Loi: ${it.message}", Toast.LENGTH_SHORT).show()
                     }
                 )
             } else {
-                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Vui long dien du thong tin", Toast.LENGTH_SHORT).show()
             }
         }
     }

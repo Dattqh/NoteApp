@@ -34,15 +34,15 @@ class EditNoteUI : AppCompatActivity() {
                     noteRepository.updateNote(
                         updatedNote,
                         onSuccess = {
-                            Toast.makeText(this, "Note updated successfully!", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Cap nhat ghi chu thanh cong!", Toast.LENGTH_SHORT).show()
                             finish() // Quay lại màn hình trước sau khi cập nhật thành công
                         },
                         onFailure = { exception ->
-                            Toast.makeText(this, "Error updating note: ${exception.message}", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Loi cap nhat: ${exception.message}", Toast.LENGTH_SHORT).show()
                         }
                     )
                 } else {
-                    Toast.makeText(this, "Please fill all fields!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Vui long dien day du thong tin!", Toast.LENGTH_SHORT).show()
                 }
             }
         }
